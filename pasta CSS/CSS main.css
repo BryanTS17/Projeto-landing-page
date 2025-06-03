@@ -1,0 +1,185 @@
+@import url(./reset.css);
+
+body {
+  background-color: #000;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+h1 {
+  background: linear-gradient(to top,#2990cc, #0f72d9 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5em;
+  font-weight: bolder;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+h2 {
+  background: linear-gradient(to top,#3f98cc, #277bd4 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bolder;
+  margin: 2rem 0;
+  letter-spacing: 3px;
+}
+
+p {
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #f3f3f3e7;
+  padding-top: 0.5rem;
+}
+
+a {
+  display: inline;
+  font: bolder;
+}
+
+hr {
+  height: 2px;
+  background-color: #0f72d9;
+  color: #0f72d9;
+  border: none;
+}
+
+button {
+  background: linear-gradient(to top,#82beff, #1c84f3 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to top,#82beff, #1c84f3 );
+  border-image-slice: 1;
+  color: #0f72d9;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: auto;
+  margin-top: 1rem;
+  user-select: none;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.textpequeno {
+  font-size: 0.5;
+  font-weight: 200;
+  color: #f3f3f3e7;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.imagem {
+  height: 100%;
+  margin: auto;
+  user-select: none;
+}
+
+.module {
+  background-color: #1b1b1bdd;
+  border: 1px solid #1c84f3;
+  border-radius: 2rem;
+  box-shadow: inset 0 0 8px #000000;
+  padding: 1rem;
+  width: 30rem;
+  height: 1.8rem;
+  margin: 3rem auto ;
+  align-items: center;
+  text-align: center;
+}
+
+.modulo {
+  color: #4796eb;
+  font-weight: normal;
+  display: inline;
+}
+
+.logo {
+  width: fit-content;
+  height: fit-content;
+  background-color: #0000002f;
+  border-radius: 100%;
+  margin: auto;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.tranparent-text-alto {
+  color: transparent;
+  padding-top: 2rem;
+  user-select: none;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.logo img {
+  height: 100%;
+  margin: auto;
+  user-select: none;
+}
+
+header.banner {
+  background-image: url(../imagens/banner.png);
+  width: 100%;
+  height: 37rem;
+  margin: auto;
+}
+
+div.banner-content {
+  background-image: linear-gradient(
+    to top,
+     #000000bb 0%,
+      #2990cc44 40%,
+       #000000bb 100%);
+  background-image: linear-gradient(
+  to top,
+  #000000ee 0%,
+  #0d1723cc 20%,
+  #196db244 40%,
+  #117ab644 50%,
+  #196db244 60%,
+  #0d1723cc 80%,
+  #000000ee 100%
+);
+
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+#transform-world {
+  width: 100%;
+  height: 30rem;
+  background-image: url(../imagens/woman-code.png);
+  background-size: cover;
+  background-attachment: fixed;
+  border: 1px solid #0f72d9;
+}
+
+#transform-world-content {
+  width: 100%;
+  height: 100%;
+  margin-left: 18%;
+  margin-top: 10rem;
+}
+
+#dio-logo {
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#transform-world p {
+  font-size: 2.5rem;
+  color: #e8f6ff;
+  text-shadow: 3px 3px 2px #1c84f3;
+  text-align: left;
+  font-weight: bolder;
+  
+}
+
