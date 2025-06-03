@@ -6,6 +6,10 @@ body {
   overflow-y: scroll;
 }
 
+footer {
+  background-image: linear-gradient(to top,#052547, #000000bb);
+}
+
 h1 {
   background: linear-gradient(to top,#2990cc, #0f72d9 );
   -webkit-background-clip: text;
@@ -36,6 +40,7 @@ p {
 
 a {
   display: inline;
+  color: #348ff0;
   font: bolder;
 }
 
